@@ -1,0 +1,16 @@
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 40px 0;
+  color: #1d1d1f;
+}
